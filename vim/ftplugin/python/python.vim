@@ -1,5 +1,27 @@
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"python general settings
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"Number of spaces to use for each step of (auto)indent.
+set shiftwidth=4
+"Number of spaces that a <Tab> in the file counts for.
+set tabstop=4
+"Use the appropriate number of spaces to insert a <Tab>
+set expandtab
+"Print the line number in front of each line
+set number
+"When a bracket is inserted, briefly jump to the matching one
+set showmatch
+
+"While typing a search command, show where the pattern matches
+set incsearch
+"When there is a previous search pattern, highlight all its matches
+set hlsearch
+
+"Don't copy indent from current line when starting a new line
+set noautoindent
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "pylint
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
