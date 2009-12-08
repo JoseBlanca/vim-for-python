@@ -19,7 +19,7 @@ setlocal incsearch
 setlocal hlsearch
 
 "Don't copy indent from current line when starting a new line
-setlocal noautoindent
+setlocal cindent
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Trim trailing whitespace
