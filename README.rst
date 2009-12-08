@@ -47,6 +47,17 @@ Mappings
 | f            | Toogle folding                                    |
 +--------------+---------------------------------------------------+
 
+Related reading
+===============
+- `Vim as Python IDE`_
+- `Python and vim`_
+- `Python with a modular IDE(Vim)`_
+
+.. _Vim as Python IDE: http://blog.dispatched.ch/2009/05/24/vim-as-python-ide/
+.. _Python and vim: http://dancingpenguinsoflight.com/2009/02/python-and-vim-make-your-own-ide/
+.. _`Python with a modular IDE(Vim)`: http://www.sontek.net/post/Python-with-a-modular-IDE-%28Vim%29.aspx
+
+
 Pluggins used
 =============
 - Folding_
