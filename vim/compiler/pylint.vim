@@ -78,7 +78,7 @@ endif
 " CompilerSet makeprg=(echo\ '[%]';\ pylint\ -r\ y\ %)
 " modified by Jose Blanca
 " it does not list the info messages and it lists errors first
-CompilerSet makeprg=(echo\ '[%]';pylint\ -i\ y\ %\\\|grep\ -e\ \'^[WEC]\'\\\|sed\ \'s/^\\\(.\\\)/\\\1\ /\'\\\|sort\ -k2)
+CompilerSet makeprg=(echo\ '[%]';pylint\ -i\ y\ %\\\|grep\ -e\ \'^[WECY]\'\\\|sed\ \'s/^\\\([WEC]\\\)/\\\1\ /\'\\\|sort\ -k2)
 
 " We could omit end of file-entry, there is only one file
 " %+I... - include code rating information
