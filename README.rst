@@ -20,7 +20,7 @@ Pylint integration
 ==================
 
 pylint is used as the compiler for the python files. The lines with problem will be showed in the quickfix window and as signs at the corresponding lines. The error list is updated everytime the file is saved.
-The compiler used is a modified version from the original_ pylint vim compiler created by "`Oleksandr Tymoshenko`_".
+The compiler used is a modified version from the original_ pylint vim compiler created by `Oleksandr Tymoshenko`_.
 
 .. _original: http://www.vim.org/scripts/script.php?script_id=891
 .. _Oleksandr Tymoshenko: http://www.vim.org/account/profile.php?user_id=4435
