@@ -22,6 +22,11 @@ setlocal hlsearch
 setlocal cindent
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"Code completion
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Trim trailing whitespace
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd FileType python autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
@@ -86,3 +91,5 @@ endfunction
 "mappings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 noremap <silent> w<F5> :QFix<CR>
+"code complete
+inoremap <Nul> <C-x><C-o>

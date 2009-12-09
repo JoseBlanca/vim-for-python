@@ -98,9 +98,9 @@ noremap  <silent> <C-C> :call CommentLine()<CR>
 vnoremap <silent> <C-C> :call RangeCommentLine()<CR>
 
 " key-mappings for un-comment line in normal mode
-noremap  <silent> <C-X> :call UnCommentLine()<CR>
+noremap  <silent> <C-V> :call UnCommentLine()<CR>
 " key-mappings for range un-comment lines in visual <Shift-V> mode
-vnoremap <silent> <C-X> :call RangeUnCommentLine()<CR>
+vnoremap <silent> <C-V> :call RangeUnCommentLine()<CR>
 
 " function to comment line in normal mode
 function! CommentLine()

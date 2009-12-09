@@ -15,6 +15,7 @@ Features
 #. It highligts the characters above the column 80
 #. It allows commenting and uncommenting for different file types.
 #. It supports code folding
+#. It completes code
 
 Pylint integration
 ==================
@@ -35,17 +36,21 @@ Every time the buffer is written to disc pylint is run and the problem lists is 
 Mappings
 ========
 
-+--------------+---------------------------------------------------+
-| key mapping  | Action                                            |
-+--------------+---------------------------------------------------+
-| <ctrl-C>     | Comments a line or block                          |
-+--------------+---------------------------------------------------+
-| <ctrl-X>     | Uncomments a line or block                        |
-+--------------+---------------------------------------------------+
-| w F5         | Toogles the visibility of the quickfix window     |
-+--------------+---------------------------------------------------+
-| f            | Toogle folding                                    |
-+--------------+---------------------------------------------------+
++-----------------+---------------------------------------------------+
+| key mapping     | Action                                            |
++-----------------+---------------------------------------------------+
+| <ctrl-C>        | Comments a line or block                          |
++-----------------+---------------------------------------------------+
+| <ctrl-V>        | Uncomments a line or block                        |
++-----------------+---------------------------------------------------+
+| <crl-X><crtl-O> | Code complete                                     |
++-----------------+---------------------------------------------------+
+| <space>         | Same as  <crl-X><crtl-O> (code complete)          |
++-----------------+---------------------------------------------------+
+| w F5            | Toogles the visibility of the quickfix window     |
++-----------------+---------------------------------------------------+
+| f               | Toogle folding                                    |
++-----------------+---------------------------------------------------+
 
 Related reading
 ===============
