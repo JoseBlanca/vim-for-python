@@ -45,11 +45,15 @@ Mappings
 +-----------------+---------------------------------------------------+
 | <crl-X><crtl-O> | Code complete                                     |
 +-----------------+---------------------------------------------------+
-| <space>         | Same as  <crl-X><crtl-O> (code complete)          |
+| <C-space>       | Same as  <crl-X><crtl-O> (code complete)          |
 +-----------------+---------------------------------------------------+
-| w F5            | Toogles the visibility of the quickfix window     |
+| w F4            | Toggles the visibility of the minibuffer window   |
++-----------------+---------------------------------------------------+
+| w F5            | Toggles the visibility of the quickfix window     |
 +-----------------+---------------------------------------------------+
 | f               | Toogle folding                                    |
++-----------------+---------------------------------------------------+
+| :qa             | quit                                              |
 +-----------------+---------------------------------------------------+
 
 Related reading
