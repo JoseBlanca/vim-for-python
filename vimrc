@@ -55,6 +55,8 @@ function! MyLastWindow()
   endif
 endfunction
 
+"minibufexplorer will be opened even if there is only one buffer
+let g:miniBufExplorerMoreThanOne=1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "mappings
