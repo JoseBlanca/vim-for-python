@@ -10,6 +10,9 @@ setlocal tabstop=4
 setlocal expandtab
 "Print the line number in front of each line
 setlocal number
+"color the line number in a different color
+highlight LineNr guibg=lightblue ctermbg=lightgray
+
 "When a bracket is inserted, briefly jump to the matching one
 setlocal showmatch
 
@@ -51,18 +54,6 @@ autocmd FileType python compiler pylint
 au FileType qf call AdjustWindowHeight(3, 10)
 function! AdjustWindowHeight(minheight, maxheight)
     exe max([min([line("$"), a:maxheight]), a:minheight]) . "wincmd _"
-endfunction
-
-"if quickfix is the lastwindow I want it closed
-au BufEnter * call MyLastWindow()
-function! MyLastWindow()
-  " if the window is quickfix go on
-  if &buftype=="quickfix"
-    " if this window is last on screen quit without warning
-    if winbufnr(2) == -1
-      quit!
-    endif
-  endif
 endfunction
 
 "quickfix toogle
