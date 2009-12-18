@@ -75,4 +75,6 @@ noremap <C-Up>    <C-W>k
 "changes the buffer in the current window to the next or the previous one
 noremap <C-right> <ESC>:bn<CR>
 noremap <C-left> <ESC>:bp<CR>
+"# Toggle line numbers and fold column for easy copying:
+nnoremap w<F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 

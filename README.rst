@@ -59,6 +59,8 @@ Mappings
 +-----------------+---------------------------------------------------+
 | >               | In visual mode shift block to right               |
 +-----------------+---------------------------------------------------+
+| w F2            | Toggles the visibility of the column and signs col|
++-----------------+---------------------------------------------------+
 | w F4            | Toggles the visibility of the minibuffer window   |
 +-----------------+---------------------------------------------------+
 | w F5            | Toggles the visibility of the quickfix window     |
@@ -85,6 +87,8 @@ Mappings
 +-----------------+---------------------------------------------------+
 | : set nowrap    | don't wrap long lines                             |
 +-----------------+---------------------------------------------------+
+
+In the minibufferexplorer window press d to close a buffer
 
 Related reading
 ===============
