@@ -103,8 +103,10 @@ Pluggins used
 - Pylint_
 - Comments_
 - supertab_
+- python_fn_
 
-.. _Folding: http://www.vim.org/scripts/script.php?script_id=1494
+.. _Folding: http://www.vim.org/scripts/script.php?script_id=2002
 .. _Pylint: http://www.vim.org/scripts/script.php?script_id=891
 .. _Comments: http://www.vim.org/scripts/script.php?script_id=1528
 .. _supertab: http://www.vim.org/scripts/script.php?script_id=1643
+.. _python_fn: http://www.vim.org/scripts/script.php?script_id=30
