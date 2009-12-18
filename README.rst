@@ -45,6 +45,8 @@ Mappings
 +-----------------+---------------------------------------------------+
 | <ctrl-V>        | Uncomments a line or block                        |
 +-----------------+---------------------------------------------------+
+| <tab>           | Complete the code                                 |
++-----------------+---------------------------------------------------+
 | <ctrl-X><crtl-O>| Code complete (inttelli sense)                    |
 +-----------------+---------------------------------------------------+
 | <ctrl-n>        | Code complete (looking at the words in the buffer |
@@ -100,8 +102,9 @@ Pluggins used
 - Folding_
 - Pylint_
 - Comments_
+- supertab_
 
 .. _Folding: http://www.vim.org/scripts/script.php?script_id=1494
 .. _Pylint: http://www.vim.org/scripts/script.php?script_id=891
 .. _Comments: http://www.vim.org/scripts/script.php?script_id=1528
-
+.. _supertab: http://www.vim.org/scripts/script.php?script_id=1643
