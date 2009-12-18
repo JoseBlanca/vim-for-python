@@ -10,6 +10,7 @@ filetype indent on
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set wildmenu
 set wildmode=longest:full
+:set wildignore=*.pyc
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "status line
