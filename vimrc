@@ -9,6 +9,7 @@ filetype indent on
 " set wildmenu
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set wildmenu
+set wildmode=longest:full
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "status line
