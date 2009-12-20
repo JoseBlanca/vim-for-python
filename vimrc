@@ -46,7 +46,7 @@ call FixMiniBufExplorerTitle()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Settings for python files
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd FileType python source ~/.vim/ftplugin/python/python.vim
+autocmd FileType python source ~/.vim/addons/python.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "if quickfix or minibuf is the lastwindow I want it closed

@@ -25,6 +25,11 @@ setlocal hlsearch
 setlocal cindent
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"Improved syntax
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd FileType python set complete+=k~/.vim/syntax/python.vim isk+=.,(
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Code completion
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd FileType python set omnifunc=pythoncomplete#Complete
