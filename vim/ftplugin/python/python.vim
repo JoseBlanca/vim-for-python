@@ -16,11 +16,6 @@ highlight LineNr guibg=lightblue ctermbg=lightgray
 "When a bracket is inserted, briefly jump to the matching one
 setlocal showmatch
 
-"While typing a search command, show where the pattern matches
-setlocal incsearch
-"When there is a previous search pattern, highlight all its matches
-setlocal hlsearch
-
 "Don't copy indent from current line when starting a new line
 setlocal cindent
 

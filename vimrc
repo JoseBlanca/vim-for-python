@@ -5,6 +5,11 @@ syntax on
 filetype plugin on
 filetype indent on
 
+"While typing a search command, show where the pattern matches
+setlocal incsearch
+"When there is a previous search pattern, highlight all its matches
+setlocal hlsearch
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " set wildmenu
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
