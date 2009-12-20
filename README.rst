@@ -16,6 +16,7 @@ Features
 #. It allows commenting and uncommenting for different file types.
 #. It supports code folding
 #. It completes code
+#. Improved python syntax
 
 Pylint integration
 ==================
@@ -92,8 +93,9 @@ Pluggins used
 - Folding_
 - Pylint_
 - Comments_
+- Syntax_
 
 .. _Folding: http://www.vim.org/scripts/script.php?script_id=1494
 .. _Pylint: http://www.vim.org/scripts/script.php?script_id=891
 .. _Comments: http://www.vim.org/scripts/script.php?script_id=1528
-
+.. _Syntax: http://www.vim.org/scripts/script.php?script_id=790
