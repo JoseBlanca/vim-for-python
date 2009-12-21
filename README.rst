@@ -80,7 +80,7 @@ Mappings
 +-----------------+---------------------------------------------------+
 | :qa             | quit                                              |
 +-----------------+---------------------------------------------------+
-| :new.             | open a new buffer navigating                      |
+| :new.           | open a new buffer navigating                      |
 +-----------------+---------------------------------------------------+
 | :e file         | open a new buffer (use it with wild menu)         |
 +-----------------+---------------------------------------------------+
@@ -106,11 +106,16 @@ Related reading
 - `Vim as Python IDE`_
 - `Python and vim`_
 - `Python with a modular IDE(Vim)`_
+- supertab_
+- python_fn_
+ - Syntax_
 
 .. _Vim as Python IDE: http://blog.dispatched.ch/2009/05/24/vim-as-python-ide/
 .. _Python and vim: http://dancingpenguinsoflight.com/2009/02/python-and-vim-make-your-own-ide/
 .. _`Python with a modular IDE(Vim)`: http://www.sontek.net/post/Python-with-a-modular-IDE-%28Vim%29.aspx
-
+.. _supertab: http://www.vim.org/scripts/script.php?script_id=1643
+.. _python_fn: http://www.vim.org/scripts/script.php?script_id=30
+.. _Syntax: http://www.vim.org/scripts/script.php?script_id=790
 
 Pluggins used
 =============
