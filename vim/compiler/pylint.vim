@@ -1,7 +1,7 @@
 " Vim compiler file for Python
 " Compiler:     Style checking tool for Python
 " Maintainer:   Oleksandr Tymoshenko <gonzo@univ.kiev.ua>
-" Last Change:  2009 Dec 5
+" Last Change:  2010 april 29
 " Version:      0.6 
 " Contributors:
 "     Artur Wroblewski
@@ -42,7 +42,6 @@
 "   Of course, standard :make command can be used as in case of every
 "   other compiler.
 "
-
 
 if exists('current_compiler')
   finish
@@ -182,3 +181,4 @@ function! PlacePylintSigns()
 	endif
     endfor
 endfunction
+

@@ -1,4 +1,10 @@
 
+if exists('python_setup')
+  finish
+endif
+let python_setup = 'ok'
+
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "python general settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -22,7 +28,7 @@ setlocal cindent
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Improved syntax
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd FileType python set complete+=k~/.vim/syntax/python.vim isk+=.,(
+"autocmd FileType python set complete+=k~/.vim/syntax/python.vim isk+=.,(
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Code completion
@@ -95,3 +101,4 @@ vnoremap <space> zf
 noremap <silent> w<F5> :QFix<CR>
 "code complete
 inoremap <Nul> <C-x><C-o>
+

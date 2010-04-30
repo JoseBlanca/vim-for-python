@@ -6,7 +6,6 @@ Features
 ========
 
 1. It uses 4 spaces instead of tabs
-#. It shows an status line with the type of file, row, column and time
 #. It shows the line numbers in a column
 #. It shows the matches when performing a search and when the search is done
 #. It indents the python code
@@ -16,7 +15,6 @@ Features
 #. It allows commenting and uncommenting for different file types.
 #. It supports code folding
 #. It completes code
-#. Improved python syntax
 
 Pylint integration
 ==================
@@ -46,8 +44,6 @@ Mappings
 +-----------------+---------------------------------------------------+
 | <F4>            | Uncomments a line or block                        |
 +-----------------+---------------------------------------------------+
-| <tab>           | Complete the code                                 |
-+-----------------+---------------------------------------------------+
 | <ctrl-X><crtl-O>| Code complete (inttelli sense)                    |
 +-----------------+---------------------------------------------------+
 | <ctrl-n>        | Code complete (looking at the words in the buffer |
@@ -60,17 +56,9 @@ Mappings
 +-----------------+---------------------------------------------------+
 | <ctrl-v>        | visual select mode for blocks of text             |
 +-----------------+---------------------------------------------------+
-| ]v              | Select block                                      |
-+-----------------+---------------------------------------------------+
 | <               | In visual mode shift block to left                |
 +-----------------+---------------------------------------------------+
 | >               | In visual mode shift block to right               |
-+-----------------+---------------------------------------------------+
-| w F2            | Toggles the visibility of the column and signs col|
-+-----------------+---------------------------------------------------+
-| w F4            | Toggles the visibility of the minibuffer window   |
-+-----------------+---------------------------------------------------+
-| w F5            | Toggles the visibility of the quickfix window     |
 +-----------------+---------------------------------------------------+
 | <space>         | Toogle folding                                    |
 +-----------------+---------------------------------------------------+
@@ -98,22 +86,19 @@ Mappings
 +-----------------+---------------------------------------------------+
 | : set nowrap    | don't wrap long lines                             |
 +-----------------+---------------------------------------------------+
+| : set spell     | show spelling mistakes                            |
++-----------------+---------------------------------------------------+
 
-In the minibufferexplorer window press d to close a buffer
 
 Related reading
 ===============
 - `Vim as Python IDE`_
 - `Python and vim`_
 - `Python with a modular IDE(Vim)`_
-- supertab_
-- python_fn_
- - Syntax_
 
 .. _Vim as Python IDE: http://blog.dispatched.ch/2009/05/24/vim-as-python-ide/
 .. _Python and vim: http://dancingpenguinsoflight.com/2009/02/python-and-vim-make-your-own-ide/
 .. _`Python with a modular IDE(Vim)`: http://www.sontek.net/post/Python-with-a-modular-IDE-%28Vim%29.aspx
-.. _supertab: http://www.vim.org/scripts/script.php?script_id=1643
 .. _python_fn: http://www.vim.org/scripts/script.php?script_id=30
 .. _Syntax: http://www.vim.org/scripts/script.php?script_id=790
 
@@ -122,19 +107,7 @@ Pluggins used
 - Folding_
 - Pylint_
 - Comments_
-<<<<<<< HEAD:README.rst
-- supertab_
-- python_fn_
-=======
-- Syntax_
->>>>>>> little:README.rst
 
 .. _Folding: http://www.vim.org/scripts/script.php?script_id=2002
 .. _Pylint: http://www.vim.org/scripts/script.php?script_id=891
 .. _Comments: http://www.vim.org/scripts/script.php?script_id=1528
-<<<<<<< HEAD:README.rst
-.. _supertab: http://www.vim.org/scripts/script.php?script_id=1643
-.. _python_fn: http://www.vim.org/scripts/script.php?script_id=30
-=======
-.. _Syntax: http://www.vim.org/scripts/script.php?script_id=790
->>>>>>> little:README.rst
