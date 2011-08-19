@@ -88,7 +88,7 @@ CompilerSet makeprg=(echo\ '[%]';pylint\ -i\ y\ %\\\|grep\ -e\ \'^[WECY]\'\\\|se
 "CompilerSet efm=%+P[%f],%t:\ %#%l:%m,%Z,%+IYour\ code%m,%Z,%-G%.%#
 "modified by Jose Blanca
 "version for the sorted and filtered pylint
-CompilerSet efm=%-GI%n:\ %#%l:%m,%*\\d\ %t\ %n:\ %#%l:%m,%Z,%+IYour\ code%m,%Z,%-G%.%#
+CompilerSet efm=%-GI%n:\ %#%l\\,%c:%m,%*\\d\ %t\ %n:\ %#%l:%m,%Z,%+IYour\ code%m,%Z,%-G%.%#
 
 ""sings
 "signs definition
